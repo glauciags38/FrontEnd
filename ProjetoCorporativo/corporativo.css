@@ -1,0 +1,288 @@
+/* PRIMEIRA PARTE */
+*{
+    margin: 0px;
+}
+
+main{
+    margin: 0%;
+    padding: 10px 0px 10px 80px ;
+}
+.container1{
+    background-size: cover;
+    background-image: url("fundog.png");
+    padding: 10px;
+    background-repeat: no-repeat;
+    width: 1120px;
+    height: 600px;
+
+}
+
+nav{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    
+}
+header{
+    
+}
+.pequisa{
+    display: flex;
+    margin: 5px; 
+}
+
+.pequisa a{
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(36, 35, 35);
+    
+}
+.loguin{
+    display: flex;
+    justify-content:flex-start;
+}
+.bmenu{
+    border-radius: 50% ;
+    width: 50px;
+    height: 45px;
+    border:none;
+    background-color:rgba(151, 149, 149, 0.877);
+
+}
+label{
+    font-size: 15px;
+    text-decoration: none;
+    margin: 8px;
+    
+    
+}
+
+ul{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+il{
+    margin: 2px;
+
+}
+button2{ 
+    margin: 0px 0px 0px 300px;
+    background-color: blue;
+    border-radius: 20px;
+   color: white;
+   padding: 10px;
+  /* SEGUNDA PARTE */
+
+
+}
+h1{
+    margin: 0px 0px 0px 300px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 40px;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 15px;
+    text-align:left;
+    margin: 0px 0px 0px 300px; 
+}   
+
+.container2{
+    background-size: cover;
+    background-image: url("fundo3.png");
+    padding: 10px;
+    background-repeat: no-repeat;
+    width: 1120px;
+    height: 600px;
+
+}
+
+.titulo{
+    color: white;
+    padding: 30px;
+
+}
+.corpo{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    padding: 4px;
+    
+}
+.servico{
+    color: white;
+  text-align:left;
+    margin: 50px 0px 0px 10px;
+    padding: 5px;
+    width: 250px;
+    height: 350px;
+}
+.org{ 
+    
+    text-align: left;
+    font-size:15px;
+    padding:  0px 20px 0px 0px;
+    margin: 0px 10px 0px 0px;
+    color: white;
+    
+}
+a{
+    color: white;
+    font-size: 15px;
+    /* terceira parte */
+}
+.container3{
+    width: 1140px;
+    height: 600px;
+  display: flex;
+}
+.conteudo3{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 400px;
+    background-color: rgba(219, 219, 219, 0.918);
+
+}
+
+.conteudo3 h2{
+font-size: 30px;
+   
+}
+.conteudo3 p{
+    margin: 40px 10px 40px 10px;
+    padding: 0px 10px 0px 10px;
+    font-size: 12px;
+    width: 190px;
+}
+.conteudo3 button{
+    height: 30px;
+    width: 190px;
+    border-radius: 20px;
+    color: blue; 
+    border-color: blue;
+    margin: 50px;
+    font-size: 15px;
+}
+/* quarta parte */
+.container4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("fundo3.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 100%;
+    padding: 10px;
+    width: 1120px;
+    height: 300px;
+   
+}
+.conteudo4{
+    position: relative;
+    width: 700px;
+    height: 150px;
+}
+.email label{
+    font-size: 16px;
+    cursor: text;
+    left: 0px;
+    bottom: 5px;
+    color: white;
+    transition: 0.5s ease-in-out;
+    position: absolute;
+    top: 80px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.input{
+   background: none;
+    border: none;
+    border-bottom: 1px solid white;
+   outline: none;
+   font-size: 15px;
+   color: white;
+   width: 70%;
+   
+}
+
+h3{
+   padding-left: 90px;
+    font-size: 30px;
+    color: white;
+    
+
+}
+.email{
+    margin: 50px;
+}
+.enviar{
+    border-radius: 30px;
+    color: blue;
+    border-color: white;
+}
+/* rodape */
+.container5{
+    
+    width: 1140px;
+    height: 180px;
+    
+}
+.container5 footer{
+    background-color: rgba(219, 219, 219, 0.918);
+    width: 1140px;
+    height: 175px;
+    display: flex;
+}
+.map{ 
+    
+    width: 890px;
+    height: 173px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding: 30px;
+
+}
+.mapt{
+    font-size: 20px;
+}
+.mapte{ 
+    margin: 0%;
+    padding: 0%;
+    font-size: 13px;
+}
+.final{
+    position: relative;
+    width: 1140px;
+    height: 180px;
+}
+.finall{
+    font-size: 5%;
+    position: absolute;
+    top: 76px;
+    left: 110px;
+    color: rgb(165, 165, 165);
+}
+.fll{
+  position: relative;
+  left: 280px;
+  top: -2px;
+}
+.bmenu1{
+    
+    border-radius: 50% ;
+    width: 30px;
+    height: 25px;
+    border:none;
+    background-color:rgba(151, 149, 149, 0.877);
+}
+.bme{
+    color: rgba(0, 0, 0, 0.315);
+}
