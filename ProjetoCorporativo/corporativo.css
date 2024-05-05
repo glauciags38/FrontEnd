@@ -9,7 +9,7 @@ main{
 }
 .container1{
     background-size: cover;
-    background-image: url("fundog.png");
+    background-image: url("freelance/fundog.png");
     padding: 10px;
     background-repeat: no-repeat;
     width: 1120px;
@@ -95,7 +95,7 @@ p{
 
 .container2{
     background-size: cover;
-    background-image: url("fundo3.png");
+    background-image: url("freelance/fundo3.png");
     padding: 10px;
     background-repeat: no-repeat;
     width: 1120px;
@@ -175,7 +175,7 @@ font-size: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("fundo3.png");
+    background-image: url("freelance/fundo3.png");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 100% 100%;
